@@ -19,15 +19,6 @@
  * 
  */
 
-/**
- * @example
- * 
- * $(function(){
- *     exhref("#hoge");
- * });
- *
- */
-
 
 $(function(){
     $(selector).bind("change", function(){
