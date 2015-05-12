@@ -20,10 +20,10 @@
  */
 
 
-$(function(){
+$(document).ready(function(){
     $(selector).bind("change", function(){
-        var chk = $(this).filter(":checked").val(); // input:radio
-//      var chk = $(this, "option:selected").val(); // select
+        var chk = $(selector).filter(":checked").val(); // input:radio
+//      var chk = $(selector, "option:selected").val(); // select
         if(typeof chk == 'undefined'){ return; }
 
         chk = parseInt(chk);  // convert to integer

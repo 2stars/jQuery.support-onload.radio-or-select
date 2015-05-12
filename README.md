@@ -1,8 +1,9 @@
 jQuery.support-onload.radio-or-select
 ==================
-"Small Module" to use by copy & paste.
+コピペで使えるjQueryモジュール
 
-Require module is jQuery.
+動作にはjQueryが必要です。
 
-** Description **<br/>
-Radio or Select of Form type support onload and onchange event.
+** 説 明 **<br/>
+ラジオボタンまたはプルダウン、チェックボックスの
+選択状態に応じて何か処理を行いたい場合に利用します。
